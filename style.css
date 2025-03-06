@@ -1,0 +1,54 @@
+
+body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+.top {
+    display: flex;
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: space-between; /* Dàn đều các phần tử */
+    padding: 10px;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.top--avatar {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Khoảng cách giữa ảnh avatar và menu */
+    
+}
+
+.top--avatar--img{
+    width: 80px;
+    height: 80px;
+}
+
+ul {
+    list-style: none; /* Xóa dấu chấm đầu dòng */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 50px; /* Khoảng cách giữa các mục */
+}
+ul li a {
+    text-decoration: none; /* Bỏ gạch chân */
+    color: black; /* Đổi màu chữ thành đen */
+    font-weight: bold;
+}
+
+.top--search{
+    display: flex;
+    gap: 20px; /* Khoảng cách giữa các phần tử */
+    align-items: center;
+}
+
+.top--left {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
