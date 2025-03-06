@@ -52,3 +52,95 @@ ul li a {
     gap: 10px;
     align-items: center;
 }
+
+
+.mid {
+        display: flex;
+        align-items: center; /* Căn giữa theo chiều dọc */
+        justify-content: space-between; /* Dàn đều các phần tử */
+        padding: 10px;
+        border: 1px solid black;
+        width: 100%;
+        background-color: black; /* Nền màu đen */
+}
+
+.mid--gg {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 50px;
+}
+
+.mid--gg a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white ; /* chữ màu trắng */
+}
+
+
+.second--mid{background-color: #1e1e2e; /* Nền tối */
+    color: white; /* Màu chữ trắng */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    width: 100%;
+
+}
+
+.second--learn h1 {
+    font-size: 10rem;
+    font-weight: bold;
+}
+
+.second--with h3 {
+    font-size: 2.5rem;
+    color: #facc15; /* Màu vàng */
+    font-weight: bold;
+}
+
+.second--search {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+
+ .second--search input {
+        width: 1000px; /* Điều chỉnh độ rộng theo mong muốn */
+        max-width: 100%; /* Đảm bảo responsive trên các màn hình nhỏ */
+        padding: 1px 15px; /* Tăng padding để nhìn đẹp hơn */
+        border-radius: 90px; /* Giữ bo tròn như ảnh */
+        font-size: 1rem; /* Tăng kích thước chữ nếu cần */
+    }
+
+
+.second--search button {
+    padding: 10px 15px;
+    background-color: #10b981; /* Màu xanh */
+    color: white;
+    border: none;
+    border-radius:90px;
+    cursor: auto;
+    font-size: 4rem;
+    
+}
+
+.second--search button:hover {
+    background-color: #059669; /* Màu xanh đậm hơn khi hover */
+}
+
+.second--hot a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #3b82f6; /* Màu xanh */
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.second--hot a:hover {
+    text-decoration: underline;
+}
